@@ -9,7 +9,7 @@ const Footer = () => {
         <div
           className={`${days_one.className} flex gap-2 items-center text-2xl leading-normal orange_gradient cursor-default`}
         >
-          <Image src={"/assets/logo.png"} height={30} width={30} alt="Logo" />
+          <Image src={"/assets/logo.png"} height={40} width={40} alt="Logo" />
           InFlowMotion
         </div>
         <div className="hidden lg:flex gap-8">
@@ -21,7 +21,7 @@ const Footer = () => {
       </div>
 
       <div className="right-reserve">
-        <p>© Copyright by Yulu Duan 2023. All right reserved</p>
+        <p>© Copyright by Ricardo Zavala 2023. All right reserved</p>
       </div>
     </div>
   );

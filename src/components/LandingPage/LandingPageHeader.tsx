@@ -20,7 +20,7 @@ const LandingPageHeader = () => {
       <div
         className={`${days_one.className} flex gap-2 items-center text-2xl leading-normal orange_gradient cursor-default`}
       >
-        <Image src={"/assets/logo.png"} height={30} width={30} alt="Logo" />
+        <Image src={"/assets/logo.png"} height={40} width={40} alt="Logo" />
         InFlowMotion
       </div>
 
@@ -81,7 +81,7 @@ const LandingPageHeader = () => {
 
       <div className="hidden lg:flex gap-x-8 items-center font-medium">
         <Link href="/sign-in">Login</Link>
-        <Button className="purple_gradient">
+        <Button className="deep_space-gradient">
           <Link href="/sign-up">Sign Up</Link>
         </Button>
       </div>

@@ -22,27 +22,17 @@ const Contact = () => {
         <article className="contact_option">
           <MdOutlineMailOutline className="contact_option-icon" />
           <h4>Email</h4>
-          <h5>efyulu@student.ubc.ca</h5>
+          <h5>zavala.ricardo.m@gmail.com</h5>
           {/* eamil will be auto populate */}
-          <a href="mailto:efyulu@student.ubc.ca">Send a Message</a>
+          <a href="mailto:zavala.ricardo.m@gmail.com">Send a Message</a>
         </article>
 
         <article className="contact_option">
           <FaLinkedin className="contact_option-icon" />
           <h4>Linkedin</h4>
-          <h5>Yulu Duan</h5>
+          <h5>Ricardo Zavala</h5>
           {/* eamil will be auto populate */}
-          <a href="https://www.linkedin.com/in/yuluduan/" target="_blank">
-            Send a Message
-          </a>
-        </article>
-
-        <article className="contact_option">
-          <BsInstagram className="contact_option-icon" />
-          <h4>Instagram</h4>
-          <h5>lucy_duan1025</h5>
-          {/* eamil will be auto populate */}
-          <a href="https://www.instagram.com/lucy_duan1025/" target="_blank">
+          <a href="https://www.linkedin.com/in/ricardo-zavala-17000265/" target="_blank">
             Send a Message
           </a>
         </article>

@@ -8,9 +8,8 @@ const Header = () => {
     <>
       <nav className="flex justify-between items-center width-full h-14 px-6 py-3 border-b border-solid border-inherit">
         <div className="flex justify-center items-center gap-2">
-          <GiFairyWand className="w-7 h-7 text-[#FFC000]" />
           <p
-            className={`font-semibold text-xl orange_gradient ${days_one.className}`}
+            className={`font-semibold text-xxl orange_gradient ${days_one.className}`}
           >
             InFlowMotion
           </p>

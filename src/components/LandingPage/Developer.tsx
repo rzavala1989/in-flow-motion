@@ -34,25 +34,19 @@ const Developer = () => {
           >
             <p>Hello 👋,</p>
             <p>
-              My name is <span className="purple_text_gradient">Yulu Duan</span>
+              My name is <span className="purple_text_gradient">Ricardo Zavala</span>
             </p>
             <p>I am a Full Stack Developer</p>
           </div>
 
           <div className="pb-16">
             <p>
-              <span className="font-semibold bg-gradient-to-r from-purple-500 to-yellow-500 text-transparent bg-clip-text">
+              <span className="font-semibold bg-gradient-to-r from-red-300 to-yellow-500 text-transparent bg-clip-text">
                 InFlowMotion
               </span>{" "}
-              was born from a heartfelt mission to empower my twin sister,{" "}
-              <a
-                href="https://www.linkedin.com/in/tianyu-niki-duan-22b94b266/"
-                className="text-sky-400"
-                target="_blank"
-              >
-                @Niki
-              </a>
-              , in her journey of knowledge management and creativity
+              was born from the need to help my friend, a Ph.D. student in
+              neuroscience
+              in his journey of knowledge management and creativity
               enhancement. Facing the challenges of storing research papers,
               logic diagrams, and notes separately, we created InFlowMotion—a
               revolutionary tool that seamlessly integrates logic, research
@@ -68,12 +62,12 @@ const Developer = () => {
 
           {/* Button */}
           <div className="flex gap-20">
-            <button className="cursor-pointer pink_outline-btn h-10 px-4 py-2">
+            <button className="cursor-pointer red_outline-btn h-10 px-4 py-2">
               <a href="/Yulu_Resume.pdf" download="YuluDuan.pdf">
                 Resume
               </a>
             </button>
-            <button className="cursor-pointer pink_gradient-btn2 h-10 px-4 py-2">
+            <button className="cursor-pointer blue_techno-gradient-btn2 h-10 px-4 py-2">
               <a href="#contact">Let&apos;s Talk!</a>
             </button>
           </div>
@@ -84,7 +78,7 @@ const Developer = () => {
           className={`flex flex-col fix_width_2 gap-7 items-center justify-center`}
         >
           <Image
-            src={"/assets/avatar.jpeg"}
+            src={"/assets/badgefoto.jpeg"}
             height={350}
             width={350}
             alt="developer avatar"
@@ -92,17 +86,8 @@ const Developer = () => {
           />
           {/* Social icons */}
           <div className="ml-20 flex gap-10">
-            <a href="https://www.instagram.com/lucy_duan1025/" target="_blank">
-              <Image
-                src={"/assets/ig.svg"}
-                height={21}
-                width={25}
-                alt="Ins"
-                className="padding-top"
-              />
-            </a>
 
-            <a href="https://www.linkedin.com/in/yuluduan/" target="_blank">
+            <a href="https://www.linkedin.com/in/ricardo-zavala-17000265/" target="_blank">
               <Image
                 src={"/assets/linkedin.svg"}
                 height={21}
@@ -121,16 +106,7 @@ const Developer = () => {
             </a>
           </div>
 
-          {/* Button */}
-          <button className="ml-20 cursor-pointer orange_outline-btn h-12 px-4 py-2">
-            <a
-              href="https://www.buymeacoffee.com/yuluduan"
-              target="_blank"
-              className={`orange_gradient  ${days_one.className}`}
-            >
-              Buy Me a Coffee
-            </a>
-          </button>
+          
         </div>
       </div>
     </div>

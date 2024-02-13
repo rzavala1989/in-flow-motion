@@ -78,11 +78,11 @@
 }
 
 .orange_gradient {
-  @apply bg-gradient-to-r from-amber-500 via-orange-600 to-yellow-500 bg-clip-text text-transparent;
+  @apply bg-gradient-to-r from-red-700 via-orange-600 to-blue-900 bg-clip-text text-transparent;
 }
 
 .purple_text_gradient{
-  @apply bg-gradient-to-r from-purple-500 via-pink-500 to-blue-500 text-transparent bg-clip-text;
+  @apply bg-gradient-to-r from-amber-600 via-blue-700 to-teal-300 to-orange-600 to-red-700 text-transparent bg-clip-text;
 }
 
 .save {
@@ -1031,8 +1031,8 @@ i.justify-align {
   height: 20px;
 }
 
-.purple_gradient{
-  background: linear-gradient(88deg, #EC74E7 -45.12%, #8468F5 74.37%);
+.deep_space-gradient{
+  background: linear-gradient(88deg, #3A54BA -45.12%, #162564 74.37%);
 }
 
 .purple_bg{
@@ -1054,13 +1054,13 @@ i.justify-align {
 
 .start-btn{
   border-radius: 30px;
-  background: linear-gradient(88deg, #EC74E7 -45.12%, #8468F5 74.37%);
+  background: linear-gradient(88deg, #3A54BA -45.12%, #162564 74.37%);
   width: 150px;
   font-size: 15px;
   font-weight:700;
 }
 
-.purple_gradient_bg2{
+.deep_space-gradient_bg2{
   background: linear-gradient(180deg,rgba(253, 249, 255, 0.00) 0%,#FDF9FF 0.01%, #FDF9FF 100%);
 }
 
@@ -1068,22 +1068,26 @@ i.justify-align {
   background-color: #F9F7FF;
 }
 
-.pink_gradient-btn{
+.blue_techno-gradient-btn{
   border-radius: 10px;
-  background: linear-gradient(252deg, #F1B8D2 -4.03%, #95BBE9 112.41%);
+  background: linear-gradient(252deg, #293250 -4.03%, #204EA2 112.41%);
   box-shadow: 4px 4px 40px 4px rgba(168, 168, 168, 0.25);
 }
 
-.pink_outline-btn{
-  border-radius: 10px;
-  border: 1px solid var(--sd, rgba(241, 184, 210, 0.74));
+.red_outline-btn{
+  position: relative;
   background: #FFF;
-  box-shadow: 4px 4px 40px 4px rgba(168, 168, 168, 0.25);
+    border: .5px solid #dd4a68;
+    box-shadow: 4px 4px 40px 4px rgba(168, 168, 168, 0.25);
+    border-radius: 10px;
   width: 150px;
   font-size: 15px;
   font-weight:700;
-  color: #F1B8D2;
+  color: darkblue;
+  overflow: hidden; /* Ensures the pseudo-element will not extend outside the button */
 }
+
+
 
 .orange_outline-btn{
   border-radius: 10px;
@@ -1097,9 +1101,9 @@ i.justify-align {
 
 
 
-.pink_gradient-btn2{
+.blue_techno-gradient-btn2{
   border-radius: 10px;
-  background: linear-gradient(252deg, rgba(241, 184, 210, 0.74) -4.03%, rgba(149, 187, 233, 0.79) 112.41%);
+  background: linear-gradient(252deg, rgba(41, 50, 80, 0.74) -4.03%, rgba(32, 78, 162, 0.79) 112.41%);
   width: 150px;
   font-size: 15px;
   font-weight:700;
@@ -1123,7 +1127,7 @@ i.justify-align {
   display: flex;
   gap: 1.2rem;
   width: 1084px;
-  justify-content: space-between;
+  justify-content: space-around;
   cursor: default;
 }
 

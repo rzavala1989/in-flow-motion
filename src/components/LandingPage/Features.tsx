@@ -7,12 +7,12 @@ const Features = () => {
   return (
     <div
       id="features"
-      className="purple_gradient_bg2 px-12 flex flex-col items-center justify-center py-20"
+      className="deep_space-gradient_bg2 px-12 flex flex-col items-center justify-center py-20"
     >
       <div>
         <p className={`text-3xl ${days_one.className} leading-normal`}>
           Unleash Your Creative Flow with{" "}
-          <span className="bg-gradient-to-r from-purple-500 to-yellow-500 text-transparent bg-clip-text">
+          <span className="bg-gradient-to-r from-red-500 to-yellow-500 to-amber-200 text-transparent bg-clip-text">
             InFlowMotion
           </span>
         </p>
